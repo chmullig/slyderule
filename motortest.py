@@ -9,11 +9,10 @@ if __name__ == "__main__":
 		if delay == "-1":
 			break
 		motor1.setDelay(int(delay))
-		motor1.setDelay(int(delay))
+		motor2.setDelay(int(delay))
 		steps = raw_input("How many steps forward? ")
 		motor1.forward(int(steps))
 		motor2.forward(int(steps))
-		steps = raw_input("How many steps backwards? ")
 		motor1.backwards(int(steps))
 		motor2.backwards(int(steps))
 
